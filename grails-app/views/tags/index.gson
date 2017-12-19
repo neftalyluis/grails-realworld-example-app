@@ -1,0 +1,9 @@
+response.status 200
+
+model {
+    List<String> tagsList
+}
+
+json {
+    tags tagsList
+}
